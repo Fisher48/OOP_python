@@ -62,7 +62,7 @@ class Person:
 class Warrior(Person):
     def __init__(self, new_name, new_health, new_strength, new_speed, new_stamina):
         super().__init__(new_name, new_health, new_strength, new_speed)
-        self.__stamina = new_stamina # Выносливость
+        self.__stamina = new_stamina  # Выносливость
 
     def set_stamina(self, new_stamina):
         self.__stamina = new_stamina
